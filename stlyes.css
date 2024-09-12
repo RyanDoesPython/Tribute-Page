@@ -1,0 +1,122 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(200, 25, 25);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  color: white;
+}
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+  align-items: left;
+  justify-content: space-between;
+}
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+li > a {
+  color: inherit;
+  text-decoration: none;
+  font-family: Sans-Serif;
+}
+}
+body{
+  background-color: rgb(250, 250, 250);
+}
+#img-div{
+  width: auto;
+  max-width: 80%;
+  height: auto;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 0 10px 10px rgb(226,226,226);
+  margin: 5% auto 0 auto;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+#title{
+  padding:0;
+  width: auto;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  font-family: Sans-Serif;
+  font-weight: 900;
+}
+img{
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin: auto auto;
+  padding: 2% 0;
+  padding-top: 0%;
+  padding-bottom: 0;
+  display: block;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+figcaption{
+  text-align: center;
+  padding-top: 1%;
+}
+
+.career-highlight, .timeline-list{
+  font-weight: 400;
+  padding: 0px;
+  margin: 10px 10%;
+}
+li{
+  list-style: none;
+}
+.tribute-info{
+  align-items: center;
+}
+.time-line{
+  margin: 0 20% 0 20%;
+}
+.time-line-header{
+  text-align: center;
+}
+.Career-Highlights{
+  text-align: center;
+}
+li{
+  font-size: 20px;
+}
+.bold{
+  font-weight: bold;
+}
+.inline{
+  display: inline;
+}
+.time-line, .Career-Highlights{
+  padding-top: 3.5%;
+  padding-bottom: 0;
+}
